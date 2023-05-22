@@ -173,9 +173,9 @@ span {
 }
 
 .about-img img {
-    width: 600px;
+    width: 400px;
     border-radius: 150px;
-    margin: 150px 100px 250px 80px;
+    margin: 0px 100px 40px 80px;
 }
 
 .heading {
