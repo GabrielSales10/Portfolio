@@ -9,6 +9,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <header class="header">
@@ -231,7 +232,7 @@
     <section class="contact" id="contact">
         <h2 class="heading"> <span>Contate-me!</span></h2>
 
-        <form action="#">
+        <!-- <form action="#">
             <div class="input-box">
                 <input type="text" placeholder="Full Name">
                 <input type="email" placeholder="Email Address">
@@ -242,7 +243,22 @@
             </div>
             <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message" class="btn">
+        </form> -->
+        <form
+            class="form-contato"
+            action="https://formsubmit.co/ajax/gabrielsales390@gmail.com"
+            method="POST"
+            data-form
+            >
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required />
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" required></textarea><br><br>
+            <button type="submit" data-button>Enviar</button>
         </form>
+
     </section>
 
     <footer class="footer">
